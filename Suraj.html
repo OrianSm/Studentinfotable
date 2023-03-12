@@ -6,45 +6,57 @@
     img {
         border-radius: 10px;
         float: left;
-        margin-right: 10cqmax;
+        margin-right: 5cqmax;
+        margin-left: 1cqmax;
+        object-fit: cover;
+    }
+
+    .fom {
+        margin-left: 1cqmax;
+        color: greenyellow;
     }
 
     h3 {
         color: greenyellow;
-        background-color: green;
+
     }
 
     form {
-        margin-left: 2cqmax;
+        margin-left: 1cqmax;
     }
 </style>
 
 <body style="background-color: wheat;">
     <h1><b>Suraj Sultan Mujawar</b></h1>
-    <img src="Sm.jpg" width="320" height="480">
+    <a href="#form-g">form</a>
+    <div><img src="Sm.jpg" width="320" height="485"></div>
     <h2 style="margin-left: 1cqmax;">Hello, i am Suraj. I am a cse Student. Currently persuing Btech degree at </h2>
-    <h2 style="margin-left: 1cqmax;"><b>Brahmdevdada Mane Institute of Technology,Solapur.</b></h2>
+    <h2 style="margin-left: 1cqmax; color: burlywood;"><b>Brahmdevdada Mane Institute of
+            Technology,Solapur.</b></h2>
+    <hr>
     <h3>Skills</h3>
-    <p style="margin-left: 1cqmax;">I can write programs in laguages such as <b>Python, Java, C. </b>It's my third year
+    <p style="margin-left: 1cqmax;">I can write programs in laguages such as <b>Python, Java, C. </b>It's my third
+        year
         in this course.</p>
     <p style="margin-left: 1cqmax;">I can create mobile applications too.</p>
-    <p style="margin-left: 1cqmax;">Some projects that i created are a <b>Planet Simulation and Password generator</b>
+    <p style="margin-left: 1cqmax;">Some projects that i created are a <b>Planet Simulation and Password
+            generator</b>
     </p>
+    <hr>
     <h3>Planet Simulation</h3>
     <ul type="square">
         <li> It's a mini model of our planet system.Completely written in python languge.</li>
         <li>I had a lot of fun creating this project. It uses pygames to generate the graphics.</li>
     </ul>
+    <hr>
     <h3>Password generator</h3>
     <ul type="circle">
         <li>An automatic Password generator generates password. </li>
         <li>It is also entirely coded in python.</li>
-
     </ul>
-    <br>
-    <br>
-    <br>
-    <br>
+    <hr>
+
+    <h2 id="form-g" class="fom">Gift form</h2>
     <form action="backend.php">
         <div>
             Name:<input type="text" name="Name">
