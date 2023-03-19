@@ -64,7 +64,7 @@ h3 {
 }
 
 body {
-    background-image: url(/g.jpg);
+    background-image: url(g.jpg);
     background-size: cover;
 
 }
@@ -72,7 +72,7 @@ body {
 @media only screen and (max-width:900px) {
 
     body {
-    background-image: url(/g.jpg);
+    background-image: url(g.jpg);
     background-size: cover;
 
 }
@@ -80,7 +80,7 @@ body {
     header {
         width: 65%;
         height: 800px;
-        background-image: url(/g2.jpg);
+        background-image: url(g2.jpg);
         background-size: cover;
 
 
@@ -121,14 +121,14 @@ body {
 
 @media only screen and (max-width: 600px) {
     body {
-    background-image: url(/g.jpg);
+    background-image: url(g.jpg);
     background-size: cover;
 
 }
     header {
         width: 85%;
         height: 850px;
-        background-image: url(/g3.jpg);
+        background-image: url(g3.jpg);
 
 
     }
