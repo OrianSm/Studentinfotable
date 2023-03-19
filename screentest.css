@@ -1,0 +1,156 @@
+header {
+    border: hsla(221, 50%, 56%, 0.733);
+    margin: auto;
+    border-radius: 1%;
+    background-image: url(/g2.jpg);
+    padding: auto;
+    border-width: 2px;
+    border-style: solid;
+    width: 60%;
+    height: 1000px;
+    color: rgba(247, 8, 120, 0.274);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+section {
+    position: relative;
+    top: 55px;
+    color: rgba(71, 235, 213, 0.815);
+}
+
+main {
+    color: white;
+    font-size: 47px;
+    -webkit-text-stroke: 1px #F8F8F8;
+    text-shadow: 0px 2px 4px blue;
+    position: relative;
+    float: left;
+    padding: 15px;
+
+    font-size: large;
+    font-style: italic;
+
+}
+
+.line {
+    color: yellowgreen;
+}
+
+h3 {
+    color: rgba(84, 255, 17, 0.781);
+    font-style: normal;
+}
+
+.a1 {
+    text-align: laft;
+    padding: auto;
+    margin-left: 5%;
+    color: #86afe2;
+    ;
+
+}
+
+#i1 {
+
+    width: 25%;
+    height: auto;
+    float: left;
+    margin: auto;
+    border-radius: 50%;
+    padding: 15px;
+
+}
+
+body {
+    background-image: url(/g.jpg);
+    background-size: cover;
+
+}
+
+@media only screen and (max-width:900px) {
+
+
+
+    header {
+        width: 65%;
+        height: 800px;
+        background-image: url(/g2.jpg);
+        background-size: cover;
+
+
+    }
+
+    section {
+        font-size: 14px;
+        position: relative;
+        top: 5px;
+        color: rgb(86, 221, 255);
+        padding: 10px;
+
+
+    }
+
+    main {
+        font-size: 13px;
+
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    #i1 {
+        width: 30%;
+        margin: auto;
+        float: left;
+    }
+
+    .a1 {
+        font-size: 35px;
+        -webkit-text-stroke: 2px rgba(138, 255, 220, 0.973);
+        ;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        width: 85%;
+        height: 850px;
+        background-image: url(/g3.jpg);
+
+
+    }
+
+    section {
+        font-size: 10px;
+        position: relative;
+        top: auto;
+        color: whitesmoke;
+        padding: 5px;
+
+    }
+
+    main {
+        font-size: 13px;
+        position: relative;
+        top: px
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    #i1 {
+        width: 60%;
+        margin: auto;
+        float: none;
+    }
+
+    .a1 {
+        font-size: 20px;
+    }
+
+}
